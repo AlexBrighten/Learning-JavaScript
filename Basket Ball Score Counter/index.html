@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="team">
+            <h2 class="team-head">HOME</h2>
+            <h1 id="home-points">0</h1>
+            <button type="button" onclick="plusOneHome()">+1</button>
+            <button type="button" onclick="plusTwoHome()">+2</button>
+            <button type="button" onclick="plusThreeHome()">+3</button>
+        </div>
+        <div class="team">
+            <h2 class="team-head">GUEST</h2>
+            <h1 id="guest-points">0</h1>
+            <button type="button" onclick="plusOneGuest()">+1</button>
+            <button type="button" onclick="plusTwoGuest()">+2</button>
+            <button type="button" onclick="plusThreeGuest()">+3</button>
+        </div>
+    </div>
+
+    <div id="new-game">
+        <h3>New Game</h3>
+        <button type="button" onclick="newBtn()">New Game</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

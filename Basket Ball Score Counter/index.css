@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Timer;
+    src: url("CursedTimerUlil-Aznm.ttf");
+}
+
+/* === Base Styling === */
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1B244A;
+    color: #EEEEEE;
+}
+
+/* === Score Container === */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+/* === Score Display === */
+h1 {
+    color: #F94F6D;
+    font-family: Timer, monospace;
+    font-size: clamp(3rem, 10vw, 8rem);
+    padding: 40px 60px;
+    background-color: #080001;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+/* === Team Labels === */
+h3 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+/* === Buttons === */
+button {
+    border: 2px #9AABD8 solid;
+    border-radius: 10px;
+    padding: 15px 25px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    font-family: Timer, monospace;
+    font-size: 1rem;
+    margin: 0.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #0f1733;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 2px dashed #F94F6D;
+    outline-offset: 4px;
+}
+
+/* === New Game Section === */
+#new-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3 auto;
+}
+
